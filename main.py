@@ -11,12 +11,12 @@ def index():
 
 
 @app.route('/alta/proyecto')
-def index():
+def index1():
     return jsonify({"proyecto": "Aqui dara de alta un proyecto"})
 
 
 @app.route('/editar/proyecto')
-def index():
+def index2():
     return jsonify({"proyecto": "Aqui se editaras un proyecto"})
 
 
